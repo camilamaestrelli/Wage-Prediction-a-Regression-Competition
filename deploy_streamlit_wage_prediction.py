@@ -1,6 +1,16 @@
 import pandas as pd
 import streamlit as st
 import joblib 
+from sklearn.pipeline import Pipeline
+from sklearn.ensemble import GradientBoostingRegressor, VotingRegressor
+from xgboost import XGBRegressor
+import category_encoders as ce  
+
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.preprocessing import RobustScaler # used when there are many outliers
+from sklearn.preprocessing import FunctionTransformer
+from sklearn.compose import ColumnTransformer
+from sklearn.compose import TransformedTargetRegressor
 
 
 ##################################################################################
