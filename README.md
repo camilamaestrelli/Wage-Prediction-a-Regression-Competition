@@ -12,12 +12,12 @@ Note: Although the code cells are in english, the explanation and result interpr
 
 ---
 
-1. Exploratory Data Analysis: [EDA]()
+1. Exploratory Data Analysis: [EDA](https://github.com/camilamaestrelli/Wage-Prediction-a-Regression-Competition/blob/master/EDA%20Wage%20Prediction%2C%20a%20Regression%20Competition.ipynb)
 
 At this stage, the goal was to understand the datasets.
 
 
-2. ML: [Algorithm]()
+2. ML: [Algorithm](https://github.com/camilamaestrelli/Wage-Prediction-a-Regression-Competition/blob/master/ALGORITHM%20Wage%20Prediction%2C%20a%20Regression%20Competition.ipynb)
 
 Following the EDA, a pre-processing was carried out. For this, a randomized search over all the possible transformations (that I could think of at the time) was implemented. 
 
