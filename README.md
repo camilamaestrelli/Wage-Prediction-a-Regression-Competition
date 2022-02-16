@@ -14,7 +14,7 @@ Note: Although the code cells are in english, the explanation and result interpr
 
 1. Exploratory Data Analysis: [EDA]()
 
-
+At this stage, the goal was to understand the datasets.
 
 
 2. ML: [Algorithm]()
