@@ -10,8 +10,25 @@ For a better understanding, this was divided in 3 parts: Data Analysis, Machine 
 
 Note: Although the code cells are in english, the explanation and result interpretations (markdown cells) are in portuguese.
 
-* Exploratory Data Analysis: [EDA]()
-* ML: [Algorithm]()
-* Streamlit model deploy: [Deploy](https://share.streamlit.io/camilamaestrelli/wage-prediction-a-regression-competition/deploy_streamlit_wage_prediction.py)
+---
+
+1. Exploratory Data Analysis: [EDA]()
+
+
+
+
+2. ML: [Algorithm]()
+
+Following the EDA, a pre-processing was carried out. For this, a randomized search over all the possible transformations (that I could think of at the time) was implemented. 
+
+The last 5 submissions (of a total of 10) used the transformations chosen by this method. 
+
+Thereafter, randomized searches were carried out for a hyperparametrization. 
+
+Finally, a voting regressor using the best models was the one employed to predict the wage.
+
+3. Streamlit model deploy: [Deploy](https://share.streamlit.io/camilamaestrelli/wage-prediction-a-regression-competition/deploy_streamlit_wage_prediction.py)
+
+In this final step, joblib was used to save the model. And then, streamlit for the interface. 
 
 Note: Despite the fact that the EDA found some duplicated data, the deploy did not take this into account.
