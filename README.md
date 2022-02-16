@@ -4,7 +4,7 @@
 This DS project is a result of the 7th [FLAI](https://www.flai.com.br/) Machine Learning Competition. 
 The aim of the contest was to build a model that predicts wage with the smallest mean absolute error. 
 
-This model won 1st place in the Competition.
+This model won 1st place 🏆 in the Competition.
 
 For a better understanding, this was divided in 3 parts: Data Analysis, Machine Learning Algorithm and Deploy. The last one was not part of the competition but a way to practise the last DS step.
 
