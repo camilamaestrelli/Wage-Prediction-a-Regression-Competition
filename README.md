@@ -1,1 +1,3 @@
-# Wage-Prediction-a-Regression-Competition
+# Wage Prediction: A Regression Competition
+
+***
