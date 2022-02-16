@@ -31,4 +31,4 @@ Finally, a voting regressor using the best models was the one employed to predic
 
 In this final step, joblib was used to save the model. And then, streamlit for the interface. 
 
-Note: Despite the fact that the EDA found some duplicated data, the deploy did not take this into account.
+Note: Despite the fact that the EDA found some duplicated data, the deploy did not take this into account as well as the 'clustering'
